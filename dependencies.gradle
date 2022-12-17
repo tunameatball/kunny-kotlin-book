@@ -1,9 +1,11 @@
 ext {
+    kotlinVersion = '1.6.20'
+
     // Build configuration
-    buildToolsVersion = '27.0.2'
-    minSdkVersion = 15
-    compileSdkVersion = 27
-    targetSdkVersion = 27
+    buildToolsVersion = '30.0.2'
+    minSdkVersion = 26
+    compileSdkVersion = 30
+    targetSdkVersion = 30
 
     // Gradle plugin
     androidPluginVersion = '3.0.1'
